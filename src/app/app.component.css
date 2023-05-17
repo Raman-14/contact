@@ -1,0 +1,32 @@
+.createContact{
+    width: 510px;
+    height: 48px;
+    margin: 31px 0 31px 0;
+    display: flex;
+}
+.contactList{
+    width: 510px;
+    height: 48px;
+    margin: 0 0 31px 0;
+    /* display: flex; */
+}
+.createNewContact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 38px;
+}
+.contactName{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.showPopup{
+    display:block;
+}
+.hidePopup{
+    display:none;
+}
+.all{
+    background-color: black;
+}
